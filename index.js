@@ -39,24 +39,3 @@ async function invokeAction({ action, id, name, email, phone }) {
 }
 
 invokeAction(options);
-
-// const app = async () => {
-//     const data = await contacts.listContacts();
-//     console.log(data);
-// };
-
-// const app = async () => {
-//     const data = await contacts.removeContact("vza2RIzNGIwutCVCs4mCL");
-//     console.log(data);
-// };
-
-// const app = async () => {
-//     const data = await contacts.getContactById("vza2RIzNGIwutCVCs4mCL");
-//     console.log(data);
-// };
-
-// const app = async () => {
-//     const data = await contacts.addContact("Chaim Lewis", "dui.in@egetlacus.ca" , "(294) 840-6685");
-//     console.log(data);
-// };
-
